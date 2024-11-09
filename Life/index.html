@@ -13,16 +13,16 @@
         font-family: "Noto Sans Telugu", sans-serif;
       }
 
-      ul, ol {
+/*      ul, ol {
         margin-left: 20px;
         padding: 0;
-        color:#ee0aa0;/*
-        border-left: 5px solid #ee0aa0;*/
+        color:#ee0aa0;
+        border-left: 5px solid #ee0aa0;
       }
 
       ul li, ol li {
         font-size: 16px;
-/*        border-bottom: 1px dashed #BFBFBF;*/
+        border-bottom: 1px dashed #BFBFBF;
         margin-bottom: 1.5em;
         padding: 12px 9px 9px 12px;
         font-weight: 500;
@@ -43,6 +43,34 @@
       li small b {
         color: #ee0aa0;
       }
+*/
+      div {
+        box-shadow: 0 3px 12px #c9c9c9;
+      }
+
+      div img {
+        float: left;
+        width: 100px;
+        height: 63px;
+        margin-right: 9px;
+      }
+
+      div p {
+        padding: 9px 0 0 9px
+      }
+
+      .box::after {
+        content: "";
+        clear:both;
+        display: table;
+    
+      }
+
+      div small {
+        color:#999
+      }
+
+
 
     </style>
   </head>
@@ -50,29 +78,29 @@
 <h1 style="text-align: center; color:#ee0aa0; padding-bottom: 0; margin-bottom: 0;">My Life - My Rules</h1>
 <h5 style="text-align: center; color: #202411; border-bottom: 1px dashed #ee0aa0; margin-top:0; padding-top:0; padding-bottom: 9px; ">నీకు ఏవైనా గుర్తుండనివి లేదా పాటించాల్సిన విషయాలను ఇక్కడ రాసుకుని ఆచరించు <br> (09/11/2024)</h5>
 
-    <ol>
-      <li>Happy Life లీడ్ చెయ్, హ్యాపీగా ఉండటానికి ట్రై చెయ్</li>
+    
+      <div class="box"><img src="images/happy.jpeg"><p>Happy Life లీడ్ చెయ్, హ్యాపీగా ఉండటానికి ట్రై చెయ్</p></div>
 
-      <li>నెగటివ్ థింకింగ్ ఆపుకో, నెగటివ్ వైబ్ అనిపించే వారితో దూరంగా ఉండు</li>
+            <div class="box"><img src="images/negative.jpg"><p>నెగటివ్ థింకింగ్ ఆపుకో, నెగటివ్ వైబ్ అనిపించే వారితో దూరంగా ఉండు</p></div>
 
-      <li>సమయం వృధా చేయకుండా రూపాయి సంపాదించుకో</li>
+            <div class="box"><img src="images/time.jpg"><p>సమయం వృధా చేయకుండా రూపాయి సంపాదించుకో</p></div>
       
-      <li>అనవసరపు ( ఖర్చులు / అప్పులు ) చేసి పరువు పోగొట్టుకోకు</li>
+            <div class="box"><img src="images/stop.jpg"><p>అనవసరపు ( ఖర్చులు / అప్పులు ) చేసి పరువు పోగొట్టుకోకు</p></div>
       
-      <li>ఒక దాని తర్వాత ఒకటి చిన్నగా అప్పులు తీర్చు</li>
+            <div class="box"><img src="images/debt.jpg"><p>ఒక దాని తర్వాత ఒకటి చిన్నగా అప్పులు తీర్చు</p></div>
       
-      <li>ఇంట్లో వాళ్ళతో Argue చేయకు, నువ్వు ఏది చెప్పిన వాళ్లకు నచ్చదు, వాళ్లకి ఏది నచ్చితే వాళ్ళు అదే చేస్తారు, నువ్వు చెప్పే దానికి విలువ ఇవ్వరు.</li>
+            <div class="box"><img src="images/dontcare.jpg"><p>ఇంట్లో వాళ్ళతో Argue చేయకు, నువ్వు ఏది చెప్పిన వాళ్లకు నచ్చదు, వాళ్లకి ఏది నచ్చితే వాళ్ళు అదే చేస్తారు, నువ్వు చెప్పే దానికి విలువ ఇవ్వరు.</p></div>
       
-      <li>అందరికి అందుబాటులో ఉండకు, అందుబాటులో ఉండి చులకన అవ్వకు ( ఏదో ఒక పని ఉంది అని చెప్పి ఎవాయిడ్ చెయ్ ). ఒక వేళా తప్పని సరై కలవాల్సి వస్తే తక్కువ సమయం కేటాయించు.
+            <div class="box"><img src="images/available.jpg"><p>అందరికి అందుబాటులో ఉండకు, అందుబాటులో ఉండి చులకన అవ్వకు ( ఏదో ఒక పని ఉంది అని చెప్పి ఎవాయిడ్ చెయ్ ). ఒక వేళా తప్పని సరై కలవాల్సి వస్తే తక్కువ సమయం కేటాయించు.
         <br>
         <small><b>నోట్:</b> ముఖ్యంగా ( కుంచాల, శ్రీకాంత్)</small>
-      </li>
+      </p></div>
       
-      <li>నోరు చాలా ప్రమాదకరమైనది ఆ విషయం నీకు కూడా బాగా తెలుసు, తెలిసి కూడా ఒక్కోసారి మూర్ఖుడిలా ప్రవర్తిస్తావు. నోటి నుంచి వచ్చే ప్రతీ మాటకి కట్టుబడి ఉండాలి, కాబట్టి మాటలు పొదుపుగా వాడు.</li>
+            <div class="box"><img src="images/mouth.jpg"><p>నోరు చాలా ప్రమాదకరమైనది ఆ విషయం నీకు కూడా బాగా తెలుసు, తెలిసి కూడా ఒక్కోసారి మూర్ఖుడిలా ప్రవర్తిస్తావు. నోటి నుంచి వచ్చే ప్రతీ మాటకి కట్టుబడి ఉండాలి, కాబట్టి మాటలు పొదుపుగా వాడు.</p></div>
 
-      <li>షాప్ లో కూర్చో వద్దు, ఎక్కడ డబ్బులు తీసుకుంటావో అనే అనుమానం ఎక్కువ, కాబట్టి పని ఉంది అని చెప్పి వెళ్ళిపో.</li>
+            <div class="box"><img src="images/sit.jpg"><p>షాప్ లో కూర్చో వద్దు, ఎక్కడ డబ్బులు తీసుకుంటావో అనే అనుమానం ఎక్కువ, కాబట్టి పని ఉంది అని చెప్పి వెళ్ళిపో.</p></div>
    
     
-    </ol>
+    
   </body>
 </html>
